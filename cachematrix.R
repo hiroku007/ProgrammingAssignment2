@@ -3,9 +3,9 @@
 ## value to the list if it is not already known.
 
 ## This function is responsible for creating the list. This function is composed of 4 sub functions that can be used
-## to determine the important values of the list. One function is used to set the initial value, and another value
-## is used to obtain the initial value. Another subfunction in this function sets the special value, and the other
-## returns the special value.
+## to set or determine the important values of the list. One function (set) is used to set the initial value, and another 
+## (get) value is used to obtain the initial value. Another subfunction (setInverse) in this function sets the 
+## special value, and the other (getInverse) returns the special value.
 
 makeCacheMatrix <- function(x = matrix()) {
   m<-NULL
